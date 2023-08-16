@@ -18,7 +18,7 @@
     "start": "cds-serve"
   },
   "cds": {
-    "hana": { 
+    "hana": {
       "deploy-format": "hdbtable"
     },
     "requires": {

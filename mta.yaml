@@ -23,7 +23,8 @@ modules:
           srv-url: '${default-url}'
     requires:
       - name: hc_off_supplies-db
-    properties: {}
+    properties:
+      {}
   - name: hc_off_supplies-db-deployer
     type: hdb
     path: gen/db
