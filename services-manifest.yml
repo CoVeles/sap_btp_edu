@@ -2,3 +2,7 @@
 # appName = hc_off_supplies
 ---
 create-services:
+# ---------
+  - name: HC_OFF_SUPPLIES-db
+    broker: hana
+    plan: "hdi_shared"
